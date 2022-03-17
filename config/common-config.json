@@ -1,0 +1,14 @@
+{
+  "comment":{
+    "api_local": "本地API工程名",
+    "api_local_port": "本地api端口",
+    "dropConsole": "是否打包移除console",
+    "cipherMode": "1 - C1C3C2，0 - C1C2C3，默认为0"
+  },
+  "dropConsole": true,
+  "api_local_port": 10999,
+  "api_local": "/local-api/json",
+  "sm2PrivateKey": "",
+  "sm2PublicKey": "",
+  "sm2CipherMode": 0
+}

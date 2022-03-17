@@ -1,0 +1,433 @@
+{
+
+  "手册": {
+
+    "起步": {
+      "创建一个场景": "ThreeHello",
+      "安装": "ThreeHello",
+      "浏览器支持": "ThreeHello",
+      "WebGL兼容性检查": "ThreeHello",
+      "如何在本地运行Three.js": "ThreeHello",
+      "画线": "ThreeDrawLine",
+      "创建文字": "manual/zh/introduction/Creating-text",
+      "载入3D模型": "manual/zh/introduction/Loading-3D-models",
+      "常见问题": "manual/zh/introduction/FAQ",
+      "一些有用的链接": "manual/zh/introduction/Useful-links"
+    },
+
+    "进阶": {
+      "如何更新场景": "manual/zh/introduction/How-to-update-things",
+      "如何废置对象": "manual/zh/introduction/How-to-dispose-of-objects",
+      "如何创建VR内容": "manual/zh/introduction/How-to-create-VR-content",
+      "如何使用后期处理": "manual/zh/introduction/How-to-use-post-processing",
+      "矩阵变换": "manual/zh/introduction/Matrix-transformations",
+      "动画系统": "manual/zh/introduction/Animation-system"
+    },
+
+    "构建工具": {
+      "使用NPM进行测试": "manual/zh/buildTools/Testing-with-NPM"
+    }
+
+  },
+
+  "参考": {
+
+    "动画": {
+      "AnimationAction": "api/zh/animation/AnimationAction",
+      "AnimationClip": "api/zh/animation/AnimationClip",
+      "AnimationMixer": "api/zh/animation/AnimationMixer",
+      "AnimationObjectGroup": "api/zh/animation/AnimationObjectGroup",
+      "AnimationUtils": "api/zh/animation/AnimationUtils",
+      "KeyframeTrack": "api/zh/animation/KeyframeTrack",
+      "PropertyBinding": "api/zh/animation/PropertyBinding",
+      "PropertyMixer": "api/zh/animation/PropertyMixer"
+    },
+
+    "动画 / 轨道": {
+      "BooleanKeyframeTrack": "api/zh/animation/tracks/BooleanKeyframeTrack",
+      "ColorKeyframeTrack": "api/zh/animation/tracks/ColorKeyframeTrack",
+      "NumberKeyframeTrack": "api/zh/animation/tracks/NumberKeyframeTrack",
+      "QuaternionKeyframeTrack": "api/zh/animation/tracks/QuaternionKeyframeTrack",
+      "StringKeyframeTrack": "api/zh/animation/tracks/StringKeyframeTrack",
+      "VectorKeyframeTrack": "api/zh/animation/tracks/VectorKeyframeTrack"
+    },
+
+    "音频": {
+      "Audio": "api/zh/audio/Audio",
+      "AudioAnalyser": "api/zh/audio/AudioAnalyser",
+      "AudioContext": "api/zh/audio/AudioContext",
+      "AudioListener": "api/zh/audio/AudioListener",
+      "PositionalAudio": "api/zh/audio/PositionalAudio"
+    },
+
+    "摄像机": {
+      "ArrayCamera": "api/zh/cameras/ArrayCamera",
+      "Camera": "api/zh/cameras/Camera",
+      "CubeCamera": "api/zh/cameras/CubeCamera",
+      "OrthographicCamera": "api/zh/cameras/OrthographicCamera",
+      "PerspectiveCamera": "api/zh/cameras/PerspectiveCamera",
+      "StereoCamera": "api/zh/cameras/StereoCamera"
+    },
+
+    "常量": {
+      "Animation": "api/zh/constants/Animation",
+      "Core": "api/zh/constants/Core",
+      "CustomBlendingEquation": "api/zh/constants/CustomBlendingEquations",
+      "Materials": "api/zh/constants/Materials",
+      "Renderer": "api/zh/constants/Renderer",
+      "Textures": "api/zh/constants/Textures"
+    },
+
+    "核心": {
+      "BufferAttribute": "api/zh/core/BufferAttribute",
+      "BufferGeometry": "api/zh/core/BufferGeometry",
+      "Clock": "api/zh/core/Clock",
+      "EventDispatcher": "api/zh/core/EventDispatcher",
+      "GLBufferAttribute": "api/zh/core/GLBufferAttribute",
+      "InstancedBufferAttribute": "api/zh/core/InstancedBufferAttribute",
+      "InstancedBufferGeometry": "api/zh/core/InstancedBufferGeometry",
+      "InstancedInterleavedBuffer": "api/zh/core/InstancedInterleavedBuffer",
+      "InterleavedBuffer": "api/zh/core/InterleavedBuffer",
+      "InterleavedBufferAttribute": "api/zh/core/InterleavedBufferAttribute",
+      "Layers": "api/zh/core/Layers",
+      "Object3D": "api/zh/core/Object3D",
+      "Raycaster": "api/zh/core/Raycaster",
+      "Uniform": "api/zh/core/Uniform"
+    },
+
+    "核心 / BufferAttributes": {
+      "BufferAttribute Types": "api/zh/core/bufferAttributeTypes/BufferAttributeTypes"
+    },
+
+    "附件": {
+      "Earcut": "api/zh/extras/Earcut",
+      "ImageUtils": "api/zh/extras/ImageUtils",
+      "PMREMGenerator": "api/zh/extras/PMREMGenerator",
+      "ShapeUtils": "api/zh/extras/ShapeUtils"
+    },
+
+    "附件 / 核心": {
+      "Curve": "api/zh/extras/core/Curve",
+      "CurvePath": "api/zh/extras/core/CurvePath",
+      "Font": "api/zh/extras/core/Font",
+      "Interpolations": "api/zh/extras/core/Interpolations",
+      "Path": "api/zh/extras/core/Path",
+      "Shape": "api/zh/extras/core/Shape",
+      "ShapePath": "api/zh/extras/core/ShapePath"
+    },
+
+    "附件 / 曲线": {
+      "ArcCurve": "api/zh/extras/curves/ArcCurve",
+      "CatmullRomCurve3": "api/zh/extras/curves/CatmullRomCurve3",
+      "CubicBezierCurve": "api/zh/extras/curves/CubicBezierCurve",
+      "CubicBezierCurve3": "api/zh/extras/curves/CubicBezierCurve3",
+      "EllipseCurve": "api/zh/extras/curves/EllipseCurve",
+      "LineCurve": "api/zh/extras/curves/LineCurve",
+      "LineCurve3": "api/zh/extras/curves/LineCurve3",
+      "QuadraticBezierCurve": "api/zh/extras/curves/QuadraticBezierCurve",
+      "QuadraticBezierCurve3": "api/zh/extras/curves/QuadraticBezierCurve3",
+      "SplineCurve": "api/zh/extras/curves/SplineCurve"
+    },
+
+    "附件 / 物体": {
+      "ImmediateRenderObject": "api/zh/extras/objects/ImmediateRenderObject"
+    },
+
+    "几何体": {
+      "BoxGeometry": "api/zh/geometries/BoxGeometry",
+      "CircleGeometry": "api/zh/geometries/CircleGeometry",
+      "ConeGeometry": "api/zh/geometries/ConeGeometry",
+      "CylinderGeometry": "api/zh/geometries/CylinderGeometry",
+      "DodecahedronGeometry": "api/zh/geometries/DodecahedronGeometry",
+      "EdgesGeometry": "api/zh/geometries/EdgesGeometry",
+      "ExtrudeGeometry": "api/zh/geometries/ExtrudeGeometry",
+      "IcosahedronGeometry": "api/zh/geometries/IcosahedronGeometry",
+      "LatheGeometry": "api/zh/geometries/LatheGeometry",
+      "OctahedronGeometry": "api/zh/geometries/OctahedronGeometry",
+      "ParametricGeometry": "api/zh/geometries/ParametricGeometry",
+      "PlaneGeometry": "api/zh/geometries/PlaneGeometry",
+      "PolyhedronGeometry": "api/zh/geometries/PolyhedronGeometry",
+      "RingGeometry": "api/zh/geometries/RingGeometry",
+      "ShapeGeometry": "api/zh/geometries/ShapeGeometry",
+      "SphereGeometry": "api/zh/geometries/SphereGeometry",
+      "TetrahedronGeometry": "api/zh/geometries/TetrahedronGeometry",
+      "TextGeometry": "api/zh/geometries/TextGeometry",
+      "TorusGeometry": "api/zh/geometries/TorusGeometry",
+      "TorusKnotGeometry": "api/zh/geometries/TorusKnotGeometry",
+      "TubeGeometry": "api/zh/geometries/TubeGeometry",
+      "WireframeGeometry": "api/zh/geometries/WireframeGeometry"
+    },
+
+    "辅助对象": {
+      "ArrowHelper": "api/zh/helpers/ArrowHelper",
+      "AxesHelper": "api/zh/helpers/AxesHelper",
+      "BoxHelper": "api/zh/helpers/BoxHelper",
+      "Box3Helper": "api/zh/helpers/Box3Helper",
+      "CameraHelper": "api/zh/helpers/CameraHelper",
+      "DirectionalLightHelper": "api/zh/helpers/DirectionalLightHelper",
+      "GridHelper": "api/zh/helpers/GridHelper",
+      "PolarGridHelper": "api/zh/helpers/PolarGridHelper",
+      "HemisphereLightHelper": "api/zh/helpers/HemisphereLightHelper",
+      "PlaneHelper": "api/zh/helpers/PlaneHelper",
+      "PointLightHelper": "api/zh/helpers/PointLightHelper",
+      "SkeletonHelper": "api/zh/helpers/SkeletonHelper",
+      "SpotLightHelper": "api/zh/helpers/SpotLightHelper"
+    },
+
+    "灯光": {
+      "AmbientLight": "api/zh/lights/AmbientLight",
+      "AmbientLightProbe": "api/zh/lights/AmbientLightProbe",
+      "DirectionalLight": "api/zh/lights/DirectionalLight",
+      "HemisphereLight": "api/zh/lights/HemisphereLight",
+      "HemisphereLightProbe": "api/zh/lights/HemisphereLightProbe",
+      "Light": "api/zh/lights/Light",
+      "LightProbe": "api/zh/lights/LightProbe",
+      "PointLight": "api/zh/lights/PointLight",
+      "RectAreaLight": "api/zh/lights/RectAreaLight",
+      "SpotLight": "api/zh/lights/SpotLight"
+    },
+
+    "灯光 / 阴影": {
+      "LightShadow": "api/zh/lights/shadows/LightShadow",
+      "PointLightShadow": "api/zh/lights/shadows/PointLightShadow",
+      "DirectionalLightShadow": "api/zh/lights/shadows/DirectionalLightShadow",
+      "SpotLightShadow": "api/zh/lights/shadows/SpotLightShadow"
+    },
+
+    "加载器": {
+      "AnimationLoader": "api/zh/loaders/AnimationLoader",
+      "AudioLoader": "api/zh/loaders/AudioLoader",
+      "BufferGeometryLoader": "api/zh/loaders/BufferGeometryLoader",
+      "Cache": "api/zh/loaders/Cache",
+      "CompressedTextureLoader": "api/zh/loaders/CompressedTextureLoader",
+      "CubeTextureLoader": "api/zh/loaders/CubeTextureLoader",
+      "DataTextureLoader": "api/zh/loaders/DataTextureLoader",
+      "FileLoader": "api/zh/loaders/FileLoader",
+      "FontLoader": "api/zh/loaders/FontLoader",
+      "ImageBitmapLoader": "api/zh/loaders/ImageBitmapLoader",
+      "ImageLoader": "api/zh/loaders/ImageLoader",
+      "Loader": "api/zh/loaders/Loader",
+      "LoaderUtils": "api/zh/loaders/LoaderUtils",
+      "MaterialLoader": "api/zh/loaders/MaterialLoader",
+      "ObjectLoader": "api/zh/loaders/ObjectLoader",
+      "TextureLoader": "api/zh/loaders/TextureLoader"
+    },
+
+    "加载器 / 管理器": {
+      "DefaultLoadingManager": "api/zh/loaders/managers/DefaultLoadingManager",
+      "LoadingManager": "api/zh/loaders/managers/LoadingManager"
+    },
+
+    "材质": {
+      "LineBasicMaterial": "api/zh/materials/LineBasicMaterial",
+      "LineDashedMaterial": "api/zh/materials/LineDashedMaterial",
+      "Material": "api/zh/materials/Material",
+      "MeshBasicMaterial": "api/zh/materials/MeshBasicMaterial",
+      "MeshDepthMaterial": "api/zh/materials/MeshDepthMaterial",
+      "MeshDistanceMaterial": "api/zh/materials/MeshDistanceMaterial",
+      "MeshLambertMaterial": "api/zh/materials/MeshLambertMaterial",
+      "MeshMatcapMaterial": "api/zh/materials/MeshMatcapMaterial",
+      "MeshNormalMaterial": "api/zh/materials/MeshNormalMaterial",
+      "MeshPhongMaterial": "api/zh/materials/MeshPhongMaterial",
+      "MeshPhysicalMaterial": "api/zh/materials/MeshPhysicalMaterial",
+      "MeshStandardMaterial": "api/zh/materials/MeshStandardMaterial",
+      "MeshToonMaterial": "api/zh/materials/MeshToonMaterial",
+      "PointsMaterial": "api/zh/materials/PointsMaterial",
+      "RawShaderMaterial": "api/zh/materials/RawShaderMaterial",
+      "ShaderMaterial": "api/zh/materials/ShaderMaterial",
+      "ShadowMaterial": "api/zh/materials/ShadowMaterial",
+      "SpriteMaterial": "api/zh/materials/SpriteMaterial"
+    },
+
+    "数学库": {
+      "Box2": "api/zh/math/Box2",
+      "Box3": "api/zh/math/Box3",
+      "Color": "api/zh/math/Color",
+      "Cylindrical": "api/zh/math/Cylindrical",
+      "Euler": "api/zh/math/Euler",
+      "Frustum": "api/zh/math/Frustum",
+      "Interpolant": "api/zh/math/Interpolant",
+      "Line3": "api/zh/math/Line3",
+      "MathUtils": "api/zh/math/MathUtils",
+      "Matrix3": "api/zh/math/Matrix3",
+      "Matrix4": "api/zh/math/Matrix4",
+      "Plane": "api/zh/math/Plane",
+      "Quaternion": "api/zh/math/Quaternion",
+      "Ray": "api/zh/math/Ray",
+      "Sphere": "api/zh/math/Sphere",
+      "Spherical": "api/zh/math/Spherical",
+      "SphericalHarmonics3": "api/zh/math/SphericalHarmonics3",
+      "Triangle": "api/zh/math/Triangle",
+      "Vector2": "api/zh/math/Vector2",
+      "Vector3": "api/zh/math/Vector3",
+      "Vector4": "api/zh/math/Vector4"
+    },
+
+    "数学库 / 插值": {
+      "CubicInterpolant": "api/zh/math/interpolants/CubicInterpolant",
+      "DiscreteInterpolant": "api/zh/math/interpolants/DiscreteInterpolant",
+      "LinearInterpolant": "api/zh/math/interpolants/LinearInterpolant",
+      "QuaternionLinearInterpolant": "api/zh/math/interpolants/QuaternionLinearInterpolant"
+    },
+
+    "物体": {
+      "Bone": "api/zh/objects/Bone",
+      "Group": "api/zh/objects/Group",
+      "InstancedMesh": "api/zh/objects/InstancedMesh",
+      "Line": "api/zh/objects/Line",
+      "LineLoop": "api/zh/objects/LineLoop",
+      "LineSegments": "api/zh/objects/LineSegments",
+      "LOD": "api/zh/objects/LOD",
+      "Mesh": "api/zh/objects/Mesh",
+      "Points": "api/zh/objects/Points",
+      "Skeleton": "api/zh/objects/Skeleton",
+      "SkinnedMesh": "api/zh/objects/SkinnedMesh",
+      "Sprite": "api/zh/objects/Sprite"
+    },
+
+    "渲染器": {
+      "WebGLMultisampleRenderTarget": "api/zh/renderers/WebGLMultisampleRenderTarget",
+      "WebGLRenderer": "api/zh/renderers/WebGLRenderer",
+      "WebGL1Renderer": "api/zh/renderers/WebGL1Renderer",
+      "WebGLRenderTarget": "api/zh/renderers/WebGLRenderTarget",
+      "WebGLCubeRenderTarget": "api/zh/renderers/WebGLCubeRenderTarget"
+    },
+
+    "渲染器 / 着色器": {
+      "ShaderChunk": "api/zh/renderers/shaders/ShaderChunk",
+      "ShaderLib": "api/zh/renderers/shaders/ShaderLib",
+      "UniformsLib": "api/zh/renderers/shaders/UniformsLib",
+      "UniformsUtils": "api/zh/renderers/shaders/UniformsUtils"
+    },
+
+    "渲染器 / WebXR": {
+      "WebXRManager": "api/zh/renderers/webxr/WebXRManager"
+    },
+
+    "场景": {
+      "Fog": "api/zh/scenes/Fog",
+      "FogExp2": "api/zh/scenes/FogExp2",
+      "Scene": "api/zh/scenes/Scene"
+    },
+
+    "纹理贴图": {
+      "CanvasTexture": "api/zh/textures/CanvasTexture",
+      "CompressedTexture": "api/zh/textures/CompressedTexture",
+      "CubeTexture": "api/zh/textures/CubeTexture",
+      "DataTexture": "api/zh/textures/DataTexture",
+      "DataTexture2DArray": "api/zh/textures/DataTexture2DArray",
+      "DataTexture3D": "api/zh/textures/DataTexture3D",
+      "DepthTexture": "api/zh/textures/DepthTexture",
+      "Texture": "api/zh/textures/Texture",
+      "VideoTexture": "api/zh/textures/VideoTexture"
+    }
+
+  },
+
+  "示例": {
+
+    "动画": {
+      "CCDIKSolver": "examples/zh/animations/CCDIKSolver",
+      "MMDAnimationHelper": "examples/zh/animations/MMDAnimationHelper",
+      "MMDPhysics": "examples/zh/animations/MMDPhysics"
+    },
+
+    "控制": {
+      "DeviceOrientationControls": "examples/zh/controls/DeviceOrientationControls",
+      "DragControls": "examples/zh/controls/DragControls",
+      "FirstPersonControls": "examples/zh/controls/FirstPersonControls",
+      "FlyControls": "examples/zh/controls/FlyControls",
+      "OrbitControls": "examples/zh/controls/OrbitControls",
+      "PointerLockControls": "examples/zh/controls/PointerLockControls",
+      "TrackballControls": "examples/zh/controls/TrackballControls",
+      "TransformControls": "examples/zh/controls/TransformControls"
+    },
+
+    "几何体": {
+      "ConvexGeometry": "examples/zh/geometries/ConvexGeometry",
+      "DecalGeometry": "examples/zh/geometries/DecalGeometry"
+    },
+
+    "辅助对象": {
+      "LightProbeHelper": "examples/zh/helpers/LightProbeHelper",
+      "PositionalAudioHelper": "examples/zh/helpers/PositionalAudioHelper",
+      "RectAreaLightHelper": "examples/zh/helpers/RectAreaLightHelper",
+      "VertexNormalsHelper": "examples/zh/helpers/VertexNormalsHelper",
+      "VertexTangentsHelper": "examples/zh/helpers/VertexTangentsHelper"
+    },
+
+    "灯光": {
+      "LightProbeGenerator": "examples/zh/lights/LightProbeGenerator"
+    },
+
+    "加载器": {
+      "BasisTextureLoader": "examples/zh/loaders/BasisTextureLoader",
+      "DRACOLoader": "examples/zh/loaders/DRACOLoader",
+      "GLTFLoader": "examples/zh/loaders/GLTFLoader",
+      "MMDLoader": "examples/zh/loaders/MMDLoader",
+      "MTLLoader": "examples/zh/loaders/MTLLoader",
+      "OBJLoader": "examples/zh/loaders/OBJLoader",
+      "PCDLoader": "examples/zh/loaders/PCDLoader",
+      "PDBLoader": "examples/zh/loaders/PDBLoader",
+      "PRWMLoader": "examples/zh/loaders/PRWMLoader",
+      "SVGLoader": "examples/zh/loaders/SVGLoader",
+      "TGALoader": "examples/zh/loaders/TGALoader"
+    },
+
+    "物体": {
+      "Lensflare": "examples/zh/objects/Lensflare"
+    },
+
+    "后期处理": {
+      "EffectComposer": "examples/zh/postprocessing/EffectComposer"
+    },
+
+    "导出器": {
+      "GLTFExporter": "examples/zh/exporters/GLTFExporter",
+      "PLYExporter": "examples/zh/exporters/PLYExporter",
+      "ColladaExporter": "examples/zh/exporters/ColladaExporter"
+    },
+
+    "数学库": {
+      "LookupTable": "examples/zh/math/Lut",
+      "MeshSurfaceSampler": "examples/zh/math/MeshSurfaceSampler",
+      "OBB": "examples/en/math/OBB"
+    },
+
+    "QuickHull": {
+      "Face": "examples/zh/math/convexhull/Face",
+      "HalfEdge": "examples/zh/math/convexhull/HalfEdge",
+      "ConvexHull": "examples/zh/math/convexhull/ConvexHull",
+      "VertexNode": "examples/zh/math/convexhull/VertexNode",
+      "VertexList": "examples/zh/math/convexhull/VertexList"
+    },
+
+    "渲染器": {
+      "CSS2DRenderer": "examples/zh/renderers/CSS2DRenderer",
+      "CSS3DRenderer": "examples/zh/renderers/CSS3DRenderer",
+      "SVGRenderer": "examples/zh/renderers/SVGRenderer"
+    },
+
+    "实用工具": {
+      "BufferGeometryUtils": "examples/zh/utils/BufferGeometryUtils",
+      "SceneUtils": "examples/zh/utils/SceneUtils",
+      "SkeletonUtils": "examples/zh/utils/SkeletonUtils"
+    }
+
+  },
+
+  "开发者参考": {
+
+    "差异化支持": {
+      "Polyfills": "api/zh/Polyfills"
+    },
+
+    "WebGL渲染器": {
+      "WebGLProgram": "api/zh/renderers/webgl/WebGLProgram",
+      "WebGLShader": "api/zh/renderers/webgl/WebGLShader",
+      "WebGLState": "api/zh/renderers/webgl/WebGLState"
+    }
+
+  }
+
+}
