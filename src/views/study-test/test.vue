@@ -11,7 +11,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 export default {
   data() {
     return {
-      // 在这里声明变量会报错。。。。。。，不声明就没问题了。。。，就是说，不能是响应式的。。。mac test
+      // 在这里声明变量会报错。。。。。。，不声明就没问题了。。。，就是说，不能是响应式的。。。
       // 原因：https://stackoverflow.com/questions/65693108/threejs-component-working-in-vuejs-2-but-not-3/65732553
     };
   },
