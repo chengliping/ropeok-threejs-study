@@ -4,6 +4,7 @@
  */
 const projectRoutes = [
   { path: '/index', component: () => import('../../views/index') },
+  { path: '/login', component: () => import('../../views/login/login') },
   { path: '/test', component: () => import('../../views/study-test/test') },
   { path: '/three-course', component: () => import('../../views/three-course/three-course') },
   { path: '/chart-map', component: () => import('../../views/chart/chart-map') }
