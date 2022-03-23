@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
-import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
+// import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
 
 let mixer = null; // 声明一个混合器变量
@@ -164,16 +164,24 @@ export class ThreeFile {
       this.scene.add(points);
     });
 
-    const loaderObj = new OBJLoader();
-    const loaderMtl = new MTLLoader();
-    loaderMtl.load('/three-course/file/male02.mtl', (mtl) => {
-      console.log(mtl);
-      loaderObj.setMaterials(mtl);
-      loaderObj.load('/three-course/file/male02.obj', (obj) => {
-        console.log(obj);
-        obj.scale.set(100, 100, 100);
-        this.scene.add(obj);
-      });
+    // const loaderObj = new OBJLoader();
+    // const loaderMtl = new MTLLoader();
+    // loaderMtl.load('/three-course/file/male02.mtl', (mtl) => {
+    //   console.log(mtl);
+    //   mtl.preload();
+    //   loaderObj.setMaterials(mtl);
+    //   loaderObj.load('/three-course/file/male02.obj', (obj) => {
+    //     console.log(obj);
+    //     obj.scale.set(100, 100, 100);
+    //     obj.rotation.y = 500;
+    //     obj.position.y = -50;
+    //     this.scene.add(obj);
+    //   });
+    // });
+    new OBJLoader().setPath('/three-course/file/').load('male02.obj', obj => {
+      obj.scale.set(100, 100, 100);
+      obj.position.set(0, -50, 0);
+      this.scene.add(obj);
     });
 
     const loadFbx = new FBXLoader();
